@@ -9,6 +9,6 @@ namespace apiEnsayoNuevo.src.Data
 {
     public class ApplicationDBContext(DbContextOptions dbContextOptions) : DbContext(dbContextOptions)
     {
-        DbSet<Product> Products { get; set; }
+        public DbSet<Product> Products { get; set; }
     }
 }
